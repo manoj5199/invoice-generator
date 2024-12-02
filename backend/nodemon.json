@@ -1,0 +1,6 @@
+{
+  "watch": ["./"],
+  "ext": "ts,json,.env",
+  "ignore": ["./**/*.spec.ts"],
+  "exec": "node -r ts-node/register ./server.ts"
+}
